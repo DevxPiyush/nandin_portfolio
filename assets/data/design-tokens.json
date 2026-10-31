@@ -1,0 +1,55 @@
+{
+  "color": {
+    "light": {
+      "bg": "#FFFFFF",
+      "surface": "#F7F7F7",
+      "surface-alt": "#EDEDED",
+      "text-strong": "#111111",
+      "text-medium": "#1A1A1A",
+      "text-muted": "#6F6F6F",
+      "border-muted": "#E5E5E5",
+      "cta-bg": "#111111",
+      "cta-text": "#FFFFFF",
+      "accent-warm": "#111111",
+      "shadow-soft": "0 0 22px rgba(0,0,0,0.05)"
+    },
+    "dark": {
+      "bg": "#111111",
+      "surface": "#1A1A1A",
+      "surface-alt": "#222222",
+      "text-strong": "#FFFFFF",
+      "text-medium": "#EDEDED",
+      "text-muted": "#999999",
+      "border-muted": "#333333",
+      "cta-bg": "#FFFFFF",
+      "cta-text": "#111111",
+      "accent-warm": "#FFFFFF",
+      "shadow-soft": "0 0 22px rgba(0,0,0,0.2)"
+    }
+  },
+  "spacing": {
+    "base": 8,
+    "scale": [0, 8, 16, 24, 32, 48, 64, 80, 120, 160]
+  },
+  "typography": {
+    "font-family": "'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "scale": {
+      "hero": "clamp(64px, 10vw, 160px)",
+      "h1": "clamp(48px, 6vw, 80px)",
+      "h2": "clamp(32px, 4vw, 48px)",
+      "h3": "24px",
+      "body": "18px",
+      "small": "14px"
+    },
+    "weight": {
+      "bold": 700,
+      "medium": 500,
+      "regular": 400
+    }
+  },
+  "motion": {
+    "fast": 200,
+    "medium": 400,
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+  }
+}
